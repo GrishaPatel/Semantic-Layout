@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Semantic Layout</title>
+  <style>
+    body {
+      font-family: Arial;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #00bcd4;
+      padding: 40px;
+      text-align: center;
+    }
+    main {
+      display: flex;
+    }
+    aside {
+      background-color: yellow;
+      padding: 20px;
+      width: 20%;
+    }
+    article {
+      background-color: pink;
+      padding: 200px;
+      width: 60%;
+    }
+    section {
+      background-color: #fff9c4;
+      padding: 20px;
+      width: 20%;
+    }
+    footer {
+      background-color: skyblue;
+      color: white;
+      padding: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>Header</header>
+  <main>
+    <aside>Aside</aside>
+    <article>Content</article>
+    <section>Article</section>
+  </main>
+  <footer>Footer</footer>
+</body>
+</html>
